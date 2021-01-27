@@ -41,38 +41,6 @@ html {
     display: block;
 }
 
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 961px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-    margin: 0 auto;
-  }
-}
-
 .img-parameter {
   width: 100px;
   height: 100px;
@@ -116,5 +84,46 @@ html {
     padding: 15px 20px;
     border-radius: 10px;
     text-decoration: none;
-    margin: 100px;
+    margin: 100px auto;
+    display: inline-block;
 }
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 961px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+
+}
+
+
