@@ -16,12 +16,12 @@ p {
   font-family: lora;
   color: #575F7D;
   font-size: 18px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 h2 {
   font-family: roboto;
-  color: #7ECE90;
+  color: gold;
   font-size: 30px;
   font-weight: 200;
 
@@ -30,7 +30,7 @@ h2 {
 a {
   font-family: roboto;
   font-color: #6B72E1;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 
 }
@@ -111,8 +111,8 @@ html {
 
 
 .btn {
-    background-color: #6B72E1;
-    color: white;
+    background-color: gold;
+    color: #575F7D;
     padding: 15px 20px;
     border-radius: 10px;
     text-decoration: none;
